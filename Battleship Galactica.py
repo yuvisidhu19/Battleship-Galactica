@@ -10,7 +10,7 @@ from pygame import mixer
 pygame.init()                       #IMPORTANT
 
 #box of the game
-window = pygame.display.set_mode((800, 600))        #(y, x)
+window = pygame.display.set_mode((800, 600))        #(x, y)
 
 #title and icon
 pygame.display.set_caption("Space Invaders")
